@@ -1,0 +1,20 @@
+{
+    "loans": [
+      {
+        "id": "1",
+        "cnpj": "123456789001",
+        "cpf": "0000000000",
+        "nome": "henrique catunda",
+        "valor":  "123321",
+        "faturamento":"12222",
+        "endereço":  {
+          "logradouro": "Rua Doutor Messuti",
+          "cidade": "Santo André",
+          "numero": "101",
+          "bairro": "SP"
+        },
+        "email": "exemplo@gmail.com",
+        "telefone":  "88999999999"
+        }
+    ]
+}
