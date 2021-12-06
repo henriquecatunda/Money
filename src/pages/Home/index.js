@@ -27,10 +27,10 @@ export default function Home() {
 
 
     const Excluir = (id) => {
-        // axios.delete(`http://localhost:3001/enterprises/${id}`)
-        //   .then((response) => {
-        //     Allget();
-        //   }).catch((error) => console.log(error))
+        api.delete(`/${id}`)
+          .then((response) => {
+            Allget();
+          }).catch((error) => console.log(error))
     }
 
 
@@ -44,7 +44,7 @@ export default function Home() {
 
             <BoxCard>
             {dados && dados.map((dado, i) => (
-                <Card key={i} cnpj={dado.cnpj} cpf={dado.cpf} nome={dado.nome} valor={dado.valor} faturamento={dado.faturamento} endereço={`${dado.endereço.logradouro}, ${dado.endereço.bairro} - ${dado.endereço.numero}, ${dado.endereço.cidade}`} email={dado.email} telefone={dado.telefone} onClick={() => Excluir(dado.id)} />
+                <Card key={i} cnpj={dado.cnpj} cpf={dado.cpf} nome={dado.nome} valor={dado.valor} faturamento={dado.faturamento} endereço={`${dado.endereço.logradouro}, ${dado.endereço.bairro} - ${dado.endereço.numero}, ${dado.endereço.cidade}`} email={dado.email} telefone={dado.telefone} onClick={() => Excluir(dado.id)} dadosProps={dado} idEditar={dado.id}/>
             ))}
             </BoxCard>
 

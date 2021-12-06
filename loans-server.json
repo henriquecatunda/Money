@@ -1,20 +1,36 @@
 {
-    "loans": [
-      {
-        "id": "1",
-        "cnpj": "123456789001",
-        "cpf": "0000000000",
-        "nome": "henrique catunda",
-        "valor":  "123321",
-        "faturamento":"12222",
-        "endereço":  {
-          "logradouro": "Rua Doutor Messuti",
-          "cidade": "Santo André",
-          "numero": "101",
-          "bairro": "SP"
-        },
-        "email": "exemplo@gmail.com",
-        "telefone":  "88999999999"
-        }
-    ]
+  "loans": [
+    {
+      "cpf": "807.610.470-00",
+      "cnpj": "95.957.405/0001-29",
+      "nome": "Luis Henrique Catunda",
+      "valor": "10000",
+      "faturamento": "2000000",
+      "telefone": "11111111",
+      "email": "exemplos@gmail.com",
+      "endereço": {
+        "logradouro": "rua exemplo",
+        "cidade": "exemplo",
+        "numero": "111",
+        "bairro": "são vicente"
+      },
+      "id": 1
+    },
+    {
+      "cpf": "633.339.750-41",
+      "cnpj": "67.098.820/0001-39",
+      "nome": "Luis Henrique",
+      "valor": "200000",
+      "faturamento": "1000000",
+      "telefone": "8899999999",
+      "email": "exemplo2@gmail.com",
+      "endereço": {
+        "logradouro": "R. Francisco Araujo",
+        "cidade": "Fortaleza",
+        "numero": "101",
+        "bairro": "Centro"
+      },
+      "id": 2
+    }
+  ]
 }

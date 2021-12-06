@@ -6,7 +6,7 @@ import { Link} from 'react-router-dom';
 
 export default function Card(props) {
 
-    const { cnpj, cpf, nome, valor, faturamento, endereço, email, telefone, idEditar, dados,onClick} = props;
+    const { cnpj, cpf, nome, valor, faturamento, endereço, email, telefone, idEditar, dadosProps,onClick} = props;
 
     return (
         <ContainerCard>
@@ -14,7 +14,7 @@ export default function Card(props) {
                 <Title>{cnpj} </Title>
                 <Buttons>
 
-                <Link to={`/editar/${idEditar}`} >
+                <Link to={{ pathname:`/editar/${idEditar}`,  state:{dadosProps},}}>
                     <button > <img src={Toedit} alt="Logo" /> </button>
                 </Link>
 
