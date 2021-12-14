@@ -27,10 +27,26 @@
       "endereço": {
         "logradouro": "R. Francisco Araujo",
         "cidade": "Fortaleza",
-        "numero": "101",
+        "numero": "110",
         "bairro": "Centro"
       },
       "id": 2
+    },
+    {
+      "cpf": "861.515.080-09",
+      "cnpj": "14.761.218/0001-73",
+      "nome": "Henrique Catunda",
+      "valor": "500000",
+      "faturamento": "1000000",
+      "telefone": "889999999",
+      "email": "exemplo@gmail.com",
+      "endereço": {
+        "logradouro": "Rua exemplo",
+        "cidade": "Crateús",
+        "numero": "01",
+        "bairro": "Centro"
+      },
+      "id": 3
     }
   ]
 }
